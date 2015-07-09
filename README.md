@@ -4,7 +4,7 @@ kattsun が jsを学習した記録
 
 ### 参考サイト
 
-http://qiita.com/miki/items/61f870828dd15c82fda7
+http://www.eng.kagawa-u.ac.jp/~rihito/kougi/2015/edit2/edit2-1513.pdf
 
 ### 表関係の処理で参考にしたサイト
 
