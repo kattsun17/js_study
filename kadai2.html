@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>繰り返し処理</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            th {
+                background-color: #666666;
+                width: 80px;
+                padding: 5px;
+            }
+            td {
+                width: 80px;
+                text-align: right;
+                padding: 5px 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>単価×個数の一覧表</h3>
+        <table border="1">
+            <col span="1" bgcolor="#666666">
+            <tr>
+                <th>個数</th><th>商品A</th><th>商品B</th><th>商品C</th>
+            </tr>
+            <script>
+                var tanka = new Array(3);
+                tanka[0] = 300;
+                tanka[1] = 450;
+                tanka[2] = 520;
+                for (i = 1; i < 11; i++) {
+                    document.write("<tr>");
+                    document.write("<td>"+i+"</td>");
+                    document.write("<td>"+tanka[0]*i+"</td>");
+                    document.write("<td>"+tanka[1]*i+"</td>");
+                    document.write("<td>"+tanka[2]*i+"</td>");
+                    document.write("</tr>");
+                }
+            </script>
+        </table>
+    </body>
+</html>
