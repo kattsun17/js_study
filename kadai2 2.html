@@ -1,0 +1,29 @@
+<!DOCTYPE hyml>
+<html lang="ja">
+<head>
+    <title>数値比較</title>
+</head>
+<body>
+    <script>
+        // 入力
+        var n1 = prompt('数値1 : ');
+        var n2 = prompt('数値2 : ');
+        var n3 = prompt('数値3 : ');
+        // 並び替え
+        if ( n1 > n2 && n2 > n3 ) {
+            window.alert('小さい順に'+ n3 + ' ' + n2 + ' ' + n1 + '');
+        } else if ( n1 > n3 && n3 > n2 ) {
+            window.alert('小さい順に'+ n2 + ' ' + n3 + ' ' + n1 + '');
+        } else if ( n2 > n1 && n1 > n3 ) {
+            window.alert('小さい順に'+ n3 + ' ' + n1 + ' ' + n2 + '');
+        } else if ( n2 > n3 && n3 > n1 ) {
+            window.alert('小さい順に'+ n1 + ' ' + n3 + ' ' + n2 + '');
+        } else if ( n3 > n1 && n1 > n2 ) {
+            window.alert('小さい順に'+ n2 + ' ' + n1 + ' ' + n3 + '');
+        } else if ( n3 > n2 && n2 > n1 ) {
+            window.alert('小さい順に'+ n1 + ' ' + n2 + ' ' + n3 + '');
+        }
+
+    </script>
+</body>
+</html>
